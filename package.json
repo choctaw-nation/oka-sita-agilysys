@@ -1,0 +1,17 @@
+{
+	"name": "oka-sita-agilysys-styling",
+	"version": "1.0.0",
+	"description": "A CSS Stylesheet for the Oka Sita Agilysys app",
+	"scripts": {
+		"start": "parcel src/main.scss",
+		"build": "parcel build src/main.scss"
+	},
+	"author": "Choctaw Nation of Oklahoma",
+	"license": "ISC",
+	"dependencies": {
+		"parcel": "^2.12.0"
+	},
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.12.0"
+	}
+}

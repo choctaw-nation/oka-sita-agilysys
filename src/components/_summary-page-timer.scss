@@ -1,0 +1,28 @@
+/* Summary page Timer */
+.header-right-section cd-timer {
+	background-color: var(--cno-color-grass) !important;
+
+	.time-left-text {
+		color: var(--cno-color-grass) !important;
+	}
+}
+
+.order-summary-short-detail-section {
+	&[_ngcontent-pql-c316] {
+		background-color: var(--cno-color-forest) !important;
+		color: white !important;
+	}
+}
+
+.order-summary-spacer {
+	&[_ngcontent-pql-c316] {
+		background-color: white !important;
+	}
+}
+
+.order-summary-grand-total {
+	&[_ngcontent-pql-c316]:not(.highlightSection) {
+		background-color: var(--cno-color-spruce) !important;
+		color: white !important;
+	}
+}

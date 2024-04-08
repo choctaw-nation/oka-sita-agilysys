@@ -1,0 +1,28 @@
+/* Action buttons - Continue, Select Seat */
+.activity-buttons,
+.activity-cancel-buttons {
+	background-color: var(--cno-color-grass);
+	color: black;
+	line-height: 14px;
+	letter-spacing: 5px;
+	cursor: pointer;
+
+	&:hover {
+		background-color: var(--cno-color-forest);
+	}
+}
+
+.activity-confirm-buttons {
+	padding: 15px 25px !important;
+	width: 230px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.dialog-parent-container {
+	.popup-confirm-button {
+		background-color: var(--cno-color-grass);
+		color: black;
+	}
+}

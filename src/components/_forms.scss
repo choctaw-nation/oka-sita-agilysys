@@ -1,0 +1,28 @@
+/* Date change buttons <,> */
+.dining-select-prev-date,
+.dining-select-next-date {
+	font-size: 25px;
+	color: var(--cno-color-primary) !important;
+}
+
+::ng-deep .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+	background-color: var(--cno-color-primary) !important;
+}
+
+mat-select.mat-select
+	> div.mat-select-trigger
+	> div.mat-select-arrow-wrapper
+	> div.mat-select-arrow {
+	color: var(--cno-color-primary) !important;
+}
+
+mat-option.mat-option > span.mat-option-text {
+	color: #000000de;
+}
+
+::ng-deep
+	.mat-form-field-appearance-outline.mat-focused
+	.mat-form-field-outline-thick {
+	color: var(--cno-color-primary) !important;
+}

@@ -1,0 +1,77 @@
+@import url("https://use.typekit.net/liz4yul.css");
+
+body {
+	font-family: var(--cno-font-body) !important;
+
+	a {
+		color: var(--cno-color-forest) !important;
+	}
+}
+
+/* Title Section */
+.page-title-section {
+	font-family: var(--cno-font-headings);
+	font-weight: 400;
+}
+
+/* Main Title */
+.main-title {
+	font-family: var(--cno-font-headings);
+	font-weight: bold;
+	padding-top: 40px;
+}
+
+/* Subtitle */
+.dining-location,
+.activity-title,
+.sub-title {
+	padding-top: 0px;
+	font-family: var(--cno-font-headings);
+	font-weight: 300;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.dining-location {
+	display: none !important;
+}
+
+.dining-main-title {
+	display: none !important;
+}
+
+/* Title in List item */
+.activity-title,
+.dining-title,
+.listing-sub-title {
+	font-family: var(--cno-font-headings);
+}
+
+%titles {
+	text-decoration: none;
+	color: var(--cno-color-grass);
+	font-family: var(--cno-font-headings);
+}
+.dining-list-title {
+	@extend %titles;
+
+	&:hover {
+		background-color: var(--cno-color-grass) !important;
+		color: var(--cno-color-iron) !important;
+	}
+}
+
+.activity-list-title {
+	@extend %titles;
+}
+
+.selected-location-price-top-bar {
+	color: var(--cno-color-grass) !important;
+}
+
+.sub-menu-selection {
+	&[_ngcontent-pql-c316] {
+		color: var(--cno-color-grass) !important;
+		border-bottom-color: var(--cno-color-grass) !important;
+	}
+}

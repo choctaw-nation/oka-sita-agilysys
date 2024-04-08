@@ -1,0 +1,9 @@
+.location-detail {
+	background-color: var(--cno-color-cream);
+	color: var(--cno-color-iron);
+
+	&__header-label.available {
+		background-color: var(--cno-color-forest);
+		color: white;
+	}
+}
