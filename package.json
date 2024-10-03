@@ -1,9 +1,8 @@
 {
 	"name": "oka-sita-agilysys-styling",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A CSS Stylesheet for the Oka Sita Agilysys app",
 	"scripts": {
-		"start": "parcel src/main.scss",
 		"build": "parcel build src/main.scss"
 	},
 	"author": "Choctaw Nation of Oklahoma",

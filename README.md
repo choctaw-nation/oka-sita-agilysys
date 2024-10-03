@@ -11,6 +11,10 @@ A Simple repo for the Oka Sita Agilysys stylesheet
 
 ## Changelog
 
+### v1.0.1
+
+-   Updated styles and declarations based on provided css file from vendor
+
 ### v1.0.0
 
-- Init!
+-   Init!

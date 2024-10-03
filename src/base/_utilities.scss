@@ -1,4 +1,4 @@
-@use "../abstracts/variables" as v;
+@use '../abstracts/variables' as v;
 
 :root {
 	--cno-color-grass: #{v.$color-grass};
@@ -12,22 +12,4 @@
 
 	--cno-font-headings: #{v.$font-headings};
 	--cno-font-body: #{v.$font-body};
-}
-
-.main-theme-color {
-	// color: #264298 !important;
-	color: var(--cno-color-grass) !important;
-
-	&[_ngcontent-pql-c316] {
-		color: var(--cno-color-forest) !important;
-	}
-}
-
-.secondary-theme-color {
-	// color: #20b0d7 !important;
-	color: var(--cno-color-apricot) !important;
-
-	&[_ngcontent-pql-c316] {
-		color: var(--cno-color-apricot) !important;
-	}
 }

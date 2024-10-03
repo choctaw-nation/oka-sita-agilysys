@@ -1,10 +1,10 @@
 /* Action buttons - Continue, Select Seat */
 .activity-buttons,
 .activity-cancel-buttons {
-	background-color: var(--cno-color-grass);
-	color: black;
-	line-height: 14px;
-	letter-spacing: 5px;
+	background-color: var(--cno-color-grass) !important;
+	color: black !important;
+	line-height: 14px !important;
+	letter-spacing: 5px !important;
 	cursor: pointer;
 
 	&:hover {
@@ -22,7 +22,13 @@
 
 .dialog-parent-container {
 	.popup-confirm-button {
-		background-color: var(--cno-color-grass);
-		color: black;
+		background-color: var(--cno-color-grass) !important;
+		color: black !important;
 	}
+}
+
+.sub-menu-selection {
+	/* Adds bottom border and changes text color for selected menu items */
+	border-bottom: 2px solid #69813b !important;
+	color: #69813b !important;
 }
